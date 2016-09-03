@@ -18,35 +18,66 @@ Learn how to be more productive in the any JetBrains IDE.
 6. Navigation Bar <kbd>CMD</kbd> <kbd>UP</kbd>
 7. Preferences <kbd>CMD</kbd> <kbd>,</kbd>
 8. Inspections
+9. Searching
 
 ## Editor
 ### Basic Shortcut Keys
 
 > Use these in your code editor to increase coding productivity
 
-- Move the current line of code up <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>UP</kbd> or down <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>UP</kbd> shortcut keys.
-- Duplicate your current highlighted code with <kbd>CMD</kbd> <kbd>D</kbd>
-- Comment or uncomment a line of code <kbd>CMD</kbd> <kbd>/</kbd>
-- Find something in your current file with <kbd>CMD</kbd> <kbd>F</kbd>
-- Find and replace in current file with <kbd>CMD</kbd> <kbd>R</kbd>
-- Move the next occurance of highlighted code with <kbd>CMD</kbd> <kbd>G</kbd>
-- Move the previous occurance of highlighted code with <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>G</kbd>
-- Highlight same code occurance with <kbd>CTRL</kbd> <kbd>G</kbd> or go back with <kbd>CTRL</kbd> <kbd>SHIFT</kbd> <kbd>G</kbd> 
-- Navigate between opened tabs <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>]</kbd> or <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>[</kbd>
-- Navigating back and forth with history <kbd>CMD</kbd> <kbd>]</kbd> or <kbd>CMD</kbd> <kbd>[</kbd>
-- Expand or collapse a code block with <kbd>CMD</kbd> <kbd>+</kbd> or <kbd>CMD</kbd> <kbd>-</kbd>
-- Move your cursor to the next or previous line with <kbd>CTRL</kbd> <kbd>N</kbd> or <kbd>CTRL</kbd> <kbd>P</kbd> you can also use arrow keys, but your hand moves too far away.
-- Create a new file and more with <kbd>CMD</kbd> <kbd>N</kbd>
-- Surround with highlighted code with something <kbd>ALT</kbd> <kbd>CMD</kbd> <kbd>T</kbd>
-- Code highlight something based on its grammar <kbd>ALT</kbd> <kbd>UP</kbd> or <kbd>ALT</kbd> <kbd>UP</kbd>
-- Highlight a character at a time with <kbd>SHIFT</kbd> <kbd>LEFT</kbd> OR <kbd>SHIFT</kbd> <kbd>RIGHT</kbd>
-- Highlight up or down line by line of code with <kbd>SHIFT</kbd> <kbd>UP</kbd> or <kbd>SHIFT</kbd> <kbd>DOWN</kbd>
-- Highlight the rest of the line of code on the right or left side with <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>LEFT</kbd> or <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>RIGHT</kbd>
-- Highlight enclosed blocks of code with <kbd>ALT</kbd> <kbd>UP</kbd> or <kbd>ALT</kbd> <kbd>DOWN</kbd>
-- Highlight each by word and punctuation with <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>LEFT</kbd> or <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>RIGHT</kbd>
-- Highlight code usages in a file with <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>F7</kbd>
-- Go to end of the line of code with <kbd>ALT</kbd> <kbd>LEFT</kbd> or <kbd>ALT</kbd> <kbd>RIGHT</kbd>
-- You can use your mouse to highlight multiple lines or have multiple cursors by holding <kbd>ALT</kbd> and with your mouse click and hold.
+1. Moving The Cursor around Efficiently
+    - Move your cursor to the next or previous line with <kbd>CTRL</kbd> <kbd>N</kbd> or <kbd>CTRL</kbd> <kbd>P</kbd> you can also use arrow keys, but your hand moves too far away.
+    - Go to end of the line of code with <kbd>CMD</kbd> <kbd>LEFT</kbd> or <kbd>CMD</kbd> <kbd>RIGHT</kbd>
+
+2. Selecting Code Efficiently
+    - Highlight the next occurance of highlighted code with <kbd>CMD</kbd> <kbd>G</kbd>
+    - Highlight the previous occurance of highlighted code with <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>G</kbd>
+    - Highlight same code occurance with <kbd>CTRL</kbd> <kbd>G</kbd> or go back with <kbd>CTRL</kbd> <kbd>SHIFT</kbd> <kbd>G</kbd>
+    - Highlight code based on its grammar <kbd>ALT</kbd> <kbd>UP</kbd> or <kbd>ALT</kbd> <kbd>UP</kbd>
+    - Highlight a character at a time with <kbd>SHIFT</kbd> <kbd>LEFT</kbd> OR <kbd>SHIFT</kbd> <kbd>RIGHT</kbd>
+    - Highlight up or down line by line of code with <kbd>SHIFT</kbd> <kbd>UP</kbd> or <kbd>SHIFT</kbd> <kbd>DOWN</kbd>
+    - Highlight the rest of the line of code on the right or left side with <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>LEFT</kbd> or <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>RIGHT</kbd>
+    - Highlight enclosed blocks of code with <kbd>ALT</kbd> <kbd>UP</kbd> or <kbd>ALT</kbd> <kbd>DOWN</kbd>
+    - Highlight each by word and punctuation with <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>LEFT</kbd> or <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>RIGHT</kbd>
+    - Highlight code usages in a file with <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>F7</kbd>
+
+3. Manipulating Efficiently
+    - Duplicate your current highlighted code with <kbd>CMD</kbd> <kbd>D</kbd>
+    - Move the current line of code up <kbd>CTRL</kbd> <kbd>N</kbd>or down <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>UP</kbd> shortcut keys.
+    - Comment or uncomment a line of code <kbd>CMD</kbd> <kbd>/</kbd>
+    - Comment or uncomment a multi-line of code <kbd>CMD</kbd> <kbd>ALT</kbd> <kbd>/</kbd>
+    - Expand or collapse a code block with <kbd>CMD</kbd> <kbd>+</kbd> or <kbd>CMD</kbd> <kbd>-</kbd>
+    - Surround with highlighted code with something <kbd>ALT</kbd> <kbd>CMD</kbd> <kbd>T</kbd>
+    - Reformat or line code up <kbd>CMD</kbd> <kbd>ALT</kbd> <kbd>L</kbd>
+    - Delete whole line <kbd>CMD</kbd> <kbd>DELETE</kbd>
+    - Smart Line Joining, Pressing multiple times will keep joining the lines. <kbd>CTRL</kbd> <kbd>SHIFT</kbd> <kbd>J</kbd>
+    - Starting a new line outside of a function to go into inner with <kbd>CMD</kbd> <kbd>ENTER</kbd>
+    - Toggle Letter Case with <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>U</kbd> you can even toggle multilines.
+
+4. Other Key Shortcuts Efficiently
+    - Create a new file and more with <kbd>CMD</kbd> <kbd>N</kbd>
+    - Retrieve Parameter Information <kbd>CMD</kbd> <kbd>P</kbd>
+    - Find more documentation on highlighted code <kbd>CTRL</kbd> <kbd>J</kbd> and tap <kbd>J</kbd> again to see a more detailed documentation
+    - Show main wrapper context of code <kbd>CTRL</kbd> <kbd>SHIFT</kbd> <kbd>Q</kbd>
+    - Show intention actions and quick fixes <kbd>ALT</kbd> <kbd>ENTER</kbd>
+    - Navigate between opened tabs <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>]</kbd> or <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>[</kbd>
+    - Navigate through tabs with history with just <kbd>CMD</kbd> <kbd>[</kbd> or <kbd>CMD</kbd> <kbd>]</kbd>
+    - Deleting a word and perserving on whats on the right <kbd>ALT</kbd> <kbd>DELETE</kbd>
+    - Close active editor tab with <kbd>CMD</kbd> <kbd>W</kbd>
+    
+5. Using The Mouse Efficiently
+    - You can use your mouse to highlight multiple lines or have multiple cursors by holding <kbd>ALT</kbd> and with your mouse click and hold.
+    - See more information about the piece of code by holding <kbd>CMD</kbd> and mousing over it.
+    - Go directly to code's definition by holding <kbd>CMD</kbd> and clicking.
+    
+6. Searching Effectively
+    - Find something in your current file with <kbd>CMD</kbd> <kbd>F</kbd>
+    - Find and replace in current file with <kbd>CMD</kbd> <kbd>R</kbd>
+    - Find in Path with <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>G</kbd>
+    - Find and Replace in Path <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>R</kbd>
+    - Find a Class to go to <kbd>CMD</kbd> <kbd>O</kbd>
+    - Find a file to go to <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>O</kbd>
+    - Find a symbol to go to <kbd>CMD</kbd> <kbd>ALT</kbd> <kbd>O</kbd>
 
 ### Emmet (http://emmet.io/)
 
@@ -89,7 +120,6 @@ Learn how to be more productive in the any JetBrains IDE.
 
 ## USEFUL Hot Keys
 - hold shift cmd and arrow keys to scale down window
-
 
 
 
