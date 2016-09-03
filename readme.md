@@ -17,8 +17,6 @@ Learn how to be more productive in the any JetBrains IDE.
 5. Terminal <kbd>ALT</kbd> <kbd>F12</kbd>
 6. Navigation Bar <kbd>CMD</kbd> <kbd>UP</kbd>
 7. Preferences <kbd>CMD</kbd> <kbd>,</kbd>
-8. Inspections
-9. Searching
 
 ## Editor
 ### Basic Shortcut Keys
@@ -69,7 +67,7 @@ Learn how to be more productive in the any JetBrains IDE.
     - You can use your mouse to highlight multiple lines or have multiple cursors by holding <kbd>ALT</kbd> and with your mouse click and hold.
     - See more information about the piece of code by holding <kbd>CMD</kbd> and mousing over it.
     - Go directly to code's definition by holding <kbd>CMD</kbd> and clicking.
-    
+
 6. Searching Effectively
     - Find something in your current file with <kbd>CMD</kbd> <kbd>F</kbd>
     - Find and replace in current file with <kbd>CMD</kbd> <kbd>R</kbd>
@@ -116,6 +114,14 @@ Learn how to be more productive in the any JetBrains IDE.
 - You can create a changelist to make sure those files will not be commited.
 - See Differences between local and previously committed files.
 - When you get a merge conflict, we can fix easily by right clicking the file -> Git -> Fix Merge Conflict (The best feature in my opinion)
+
+## Productivity Guide
+
+- Since its built in, you can see your productivity guide by going to Help -> Productivity Guide
+- Shows how much time you have saved using code completion has saved you.
+- Shows you how many possible bugs that the IDE has saved you from.
+- Shows all IDE features that are related to productivity and how many times you have used it.
+- Shows information on how to use it.
 
 
 ## USEFUL Hot Keys
