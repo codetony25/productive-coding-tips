@@ -23,11 +23,11 @@ Learn how to be more productive in the any JetBrains IDE.
 
 > Use these in your code editor to increase coding productivity
 
-1. Moving The Cursor around Efficiently
+1. Moving The Cursor
     - Move your cursor to the next or previous line with <kbd>CTRL</kbd> <kbd>N</kbd> or <kbd>CTRL</kbd> <kbd>P</kbd> you can also use arrow keys, but your hand moves too far away.
     - Go to end of the line of code with <kbd>CMD</kbd> <kbd>LEFT</kbd> or <kbd>CMD</kbd> <kbd>RIGHT</kbd>
 
-2. Selecting Code Efficiently
+2. Selecting Code
     - Highlight the next occurance of highlighted code with <kbd>CMD</kbd> <kbd>G</kbd>
     - Highlight the previous occurance of highlighted code with <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>G</kbd>
     - Highlight same code occurance with <kbd>CTRL</kbd> <kbd>G</kbd> or go back with <kbd>CTRL</kbd> <kbd>SHIFT</kbd> <kbd>G</kbd>
@@ -39,7 +39,7 @@ Learn how to be more productive in the any JetBrains IDE.
     - Highlight each by word and punctuation with <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>LEFT</kbd> or <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>RIGHT</kbd>
     - Highlight code usages in a file with <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>F7</kbd>
 
-3. Manipulating Efficiently
+3. Manipulating
     - Duplicate your current highlighted code with <kbd>CMD</kbd> <kbd>D</kbd>
     - Move the current line of code up <kbd>CTRL</kbd> <kbd>N</kbd>or down <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>UP</kbd> shortcut keys.
     - Comment or uncomment a line of code <kbd>CMD</kbd> <kbd>/</kbd>
@@ -63,7 +63,7 @@ Learn how to be more productive in the any JetBrains IDE.
     - Deleting a word and perserving on whats on the right <kbd>ALT</kbd> <kbd>DELETE</kbd>
     - Close active editor tab with <kbd>CMD</kbd> <kbd>W</kbd>
     
-5. Using The Mouse Efficiently
+5. Using The Mouse
     - You can use your mouse to highlight multiple lines or have multiple cursors by holding <kbd>ALT</kbd> and with your mouse click and hold.
     - See more information about the piece of code by holding <kbd>CMD</kbd> and mousing over it.
     - Go directly to code's definition by holding <kbd>CMD</kbd> and clicking.
@@ -144,3 +144,8 @@ Learn how to be more productive in the any JetBrains IDE.
     ~  npm i
     ~  npm start
     
+    
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
