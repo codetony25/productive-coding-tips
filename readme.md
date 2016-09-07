@@ -31,17 +31,21 @@ Learn how to be more productive in the any JetBrains IDE.
 | Moving your cursor to the next or previous line | <kbd>CTRL</kbd> <kbd>N</kbd> or <kbd>CTRL</kbd> <kbd>P</kbd> |
 | Moving to end or beginning of the line of code | <kbd>CMD</kbd> <kbd>LEFT</kbd> or <kbd>CMD</kbd> <kbd>RIGHT</kbd> |
 
-2. Selecting Code
-    - Highlight the next occurance of highlighted code with <kbd>CMD</kbd> <kbd>G</kbd>
-    - Highlight the previous occurance of highlighted code with <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>G</kbd>
-    - Highlight same code occurance with <kbd>CTRL</kbd> <kbd>G</kbd> or go back with <kbd>CTRL</kbd> <kbd>SHIFT</kbd> <kbd>G</kbd>
-    - Highlight code based on its grammar <kbd>ALT</kbd> <kbd>UP</kbd> or <kbd>ALT</kbd> <kbd>UP</kbd>
-    - Highlight a character at a time with <kbd>SHIFT</kbd> <kbd>LEFT</kbd> OR <kbd>SHIFT</kbd> <kbd>RIGHT</kbd>
-    - Highlight up or down line by line of code with <kbd>SHIFT</kbd> <kbd>UP</kbd> or <kbd>SHIFT</kbd> <kbd>DOWN</kbd>
-    - Highlight the rest of the line of code on the right or left side with <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>LEFT</kbd> or <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>RIGHT</kbd>
-    - Highlight enclosed blocks of code with <kbd>ALT</kbd> <kbd>UP</kbd> or <kbd>ALT</kbd> <kbd>DOWN</kbd>
-    - Highlight each by word and punctuation with <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>LEFT</kbd> or <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>RIGHT</kbd>
-    - Highlight code usages in a file with <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>F7</kbd>
+#### 2. Selecting Code
+
+| Description | Shortcut Key |
+| --- | --- |
+| Highlight the next occurrence of highlighted code | <kbd>CMD</kbd> <kbd>G</kbd> |
+| Highlight the previous occurrence of highlighted code | <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>G</kbd> |
+| Highlight same code occurrence with | <kbd>CTRL</kbd> <kbd>G</kbd> or <kbd>CTRL</kbd> <kbd>SHIFT</kbd> <kbd>G</kbd> |
+| Highlight code based on its grammar | <kbd>ALT</kbd> <kbd>UP</kbd> or <kbd>ALT</kbd> <kbd>UP</kbd> |
+| Highlight a character at a time | <kbd>SHIFT</kbd> <kbd>LEFT</kbd> OR <kbd>SHIFT</kbd> <kbd>RIGHT</kbd> |
+| Highlight up or down line by line of code | <kbd>SHIFT</kbd> <kbd>UP</kbd> or <kbd>SHIFT</kbd> <kbd>DOWN</kbd> |
+| Highlight the rest of the line of code on the right or left side | <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>LEFT</kbd> or <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>RIGHT</kbd> |
+| Highlight enclosed blocks of code | <kbd>ALT</kbd> <kbd>UP</kbd> or <kbd>ALT</kbd> <kbd>DOWN</kbd> |
+| Highlight each by word and punctuation | <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>LEFT</kbd> or <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>RIGHT</kbd> |
+| Highlight code usages in a file | <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>F7</kbd> |
+ 
 
 3. Manipulating
     - Duplicate your current highlighted code with <kbd>CMD</kbd> <kbd>D</kbd>
