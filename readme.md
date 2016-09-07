@@ -26,12 +26,15 @@ Learn how to be more productive in the any JetBrains IDE.
 
 #### 1. Moving the Cursor
 
+
 | Description | Shortcut Key |
 | --- | --- |
 | Moving your cursor to the next or previous line | <kbd>CTRL</kbd> <kbd>N</kbd> or <kbd>CTRL</kbd> <kbd>P</kbd> |
 | Moving to end or beginning of the line of code | <kbd>CMD</kbd> <kbd>LEFT</kbd> or <kbd>CMD</kbd> <kbd>RIGHT</kbd> |
 
+
 #### 2. Selecting Code
+
 
 | Description | Shortcut Key |
 | --- | --- |
@@ -46,7 +49,9 @@ Learn how to be more productive in the any JetBrains IDE.
 | Highlight each by word and punctuation | <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>LEFT</kbd> or <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>RIGHT</kbd> |
 | Highlight code usages in a file | <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>F7</kbd> |
  
+ 
 #### 3. Manipulating Code
+
 
 | Description | Shortcut Key |
 | --- | --- |
@@ -62,7 +67,9 @@ Learn how to be more productive in the any JetBrains IDE.
 | Starting a new line outside of a function to go into inner | <kbd>CMD</kbd> <kbd>ENTER</kbd> |
 | Toggle Letter Case and you can even toggle multilines.| <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>U</kbd> |
 
+
 #### 4. Other Useful Shortcuts
+
 
 | Description | Shortcut Key |
 | --- | --- |
@@ -76,13 +83,18 @@ Learn how to be more productive in the any JetBrains IDE.
 | Deleting a word and perserving on whats on the right | <kbd>ALT</kbd> <kbd>DELETE</kbd> |
 | Close active editor tab | <kbd>CMD</kbd> <kbd>W</kbd> |
 
+
 #### 5. Using The Mouse
+
 
 | Description | Shortcut Key |
 | --- | --- |
 | You can use your mouse to spread multiple cursors around your code | Hold <kbd>ALT</kbd> and Move mouse | 
 | See more information about the piece of code by holding | Hold <kbd>CMD</kbd> and Hover mouse over code |
 | Going directly to code's definition | Hold <kbd>CMD</kbd> and click code |
+
+#### 6. Searching Shortcut Hotkeys
+
 
 | Description | Shortcut Key |
 | --- | --- |
