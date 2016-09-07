@@ -8,17 +8,18 @@ Learn how to be more productive in the any JetBrains IDE.
 > I will break this lesson up into the IDE's components
 
 1. Editor <kbd>ESC</kbd>
-    - Basic Shortcut Keys
-    - Emmet
-    - Code Completion
-2. Project Window <kbd>CMD</kbd> <kbd>1</kbd>
-3. Version Control <kbd>CMD</kbd> <kbd>9</kbd>
-4. Debugging <kbd>CMD</kbd> <kbd>5</kbd>
-5. Terminal <kbd>ALT</kbd> <kbd>F12</kbd>
-6. Navigation Bar <kbd>CMD</kbd> <kbd>UP</kbd>
-7. Preferences <kbd>CMD</kbd> <kbd>,</kbd>
+2. Searching
+3. Project Window <kbd>CMD</kbd> <kbd>1</kbd>
+4. Version Control <kbd>CMD</kbd> <kbd>9</kbd>
+6. Debugging <kbd>CMD</kbd> <kbd>5</kbd>
+7. Terminal <kbd>ALT</kbd> <kbd>F12</kbd>
+8. Navigation Bar <kbd>CMD</kbd> <kbd>↑</kbd>
+9. Preferences <kbd>CMD</kbd> <kbd>,</kbd>
+
+
 
 ## Editor
+
 ### Basic Shortcut Keys
 
 > Use these in your code editor to increase coding productivity
@@ -41,11 +42,11 @@ Learn how to be more productive in the any JetBrains IDE.
 | Highlight the next occurrence of highlighted code | <kbd>CMD</kbd> <kbd>G</kbd> |
 | Highlight the previous occurrence of highlighted code | <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>G</kbd> |
 | Highlight same code occurrence with | <kbd>CTRL</kbd> <kbd>G</kbd> or <kbd>CTRL</kbd> <kbd>SHIFT</kbd> <kbd>G</kbd> |
-| Highlight code based on its grammar | <kbd>ALT</kbd> <kbd>UP</kbd> or <kbd>ALT</kbd> <kbd>UP</kbd> |
+| Highlight code based on its grammar | <kbd>ALT</kbd> <kbd>↑</kbd> or <kbd>ALT</kbd> <kbd>↑</kbd> |
 | Highlight a character at a time | <kbd>SHIFT</kbd> <kbd>LEFT</kbd> or <kbd>SHIFT</kbd> <kbd>RIGHT</kbd> |
-| Highlight up or down line by line of code | <kbd>SHIFT</kbd> <kbd>UP</kbd> or <kbd>SHIFT</kbd> <kbd>DOWN</kbd> |
+| Highlight up or down line by line of code | <kbd>SHIFT</kbd> <kbd>↑</kbd> or <kbd>SHIFT</kbd> <kbd>↓</kbd> |
 | Highlight the rest of the line of code on the right or left side | <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>LEFT</kbd> or <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>RIGHT</kbd> |
-| Highlight enclosed blocks of code | <kbd>ALT</kbd> <kbd>UP</kbd> or <kbd>ALT</kbd> <kbd>DOWN</kbd> |
+| Highlight enclosed blocks of code | <kbd>ALT</kbd> <kbd>↑</kbd> or <kbd>ALT</kbd> <kbd>↓</kbd> |
 | Highlight each by word and punctuation | <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>LEFT</kbd> or <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>RIGHT</kbd> |
 | Highlight code usages in a file | <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>F7</kbd> |
  
@@ -56,7 +57,7 @@ Learn how to be more productive in the any JetBrains IDE.
 | Description | Shortcut Key |
 | --- | --- |
 | Duplicate your current highlighted code | <kbd>CMD</kbd> <kbd>D</kbd> |
-| Move the current line of code up | <kbd>CTRL</kbd> <kbd>N</kbd>or down <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>UP</kbd> |
+| Move the current line of code up | <kbd>CTRL</kbd> <kbd>N</kbd>or down <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>↑</kbd> |
 | Comment or uncomment a line of code | <kbd>CMD</kbd> <kbd>/</kbd> |
 | Comment or uncomment a multi-line of code | <kbd>CMD</kbd> <kbd>ALT</kbd> <kbd>/</kbd> |
 | Expand or collapse a code block | <kbd>CMD</kbd> <kbd>+</kbd> or <kbd>CMD</kbd> <kbd>-</kbd> |
@@ -93,8 +94,10 @@ Learn how to be more productive in the any JetBrains IDE.
 | See more information about the piece of code by holding | Hold <kbd>CMD</kbd> and Hover mouse over code |
 | Going directly to code's definition | Hold <kbd>CMD</kbd> and click code |
 
-#### 6. Searching Shortcut Hotkeys
 
+## Searching
+
+#### 1. Shortcut Hotkeys for Searching
 
 | Description | Shortcut Key |
 | --- | --- |
@@ -105,6 +108,9 @@ Learn how to be more productive in the any JetBrains IDE.
 | Find a Class to go to | <kbd>CMD</kbd> <kbd>O</kbd> |
 | Find a file to go to | <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>O</kbd> |
 | Find a symbol to go to | <kbd>CMD</kbd> <kbd>ALT</kbd> <kbd>O</kbd> |
+| Search Everywhere! | Double Tap <kbd>SHIFT</kbd> |
+
+
 
 ### Emmet (http://emmet.io/)
 
@@ -117,7 +123,7 @@ Learn how to be more productive in the any JetBrains IDE.
 
 - If you want to see Basic Code Completion suggestions you can press <kbd>CTRL</kbd> <kbd>SPACE</kbd>
 - It will show suggestions for variables, types, methods, expressions, and more.
-- Most of the time, I use Smart Code Completion instead with <kbd>CTRL</kbd> <kbd>UP</kbd> <kbd>SPACE</kbd>
+- Most of the time, I use Smart Code Completion instead with <kbd>CTRL</kbd> <kbd>↑</kbd> <kbd>SPACE</kbd>
 - We also have Statement Completion it will add missing parentheses, brackets, braces, and other necessary formatting with <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>ENTER</kbd>
 - You can also press enter if your code completion suggestion is first in the list to automatically insert.
 - Hippie Completion (Cycles through keywords, class names, methods, or variables within the file) with <kbd>ALT</kbd> <kbd>/</kbd> don't know if anyone uses this, I just always type it in.
