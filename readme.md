@@ -52,29 +52,29 @@ Learn how to be more productive in the any JetBrains IDE.
 | --- | --- |
 | Duplicate your current highlighted code | <kbd>CMD</kbd> <kbd>D</kbd> |
 | Move the current line of code up | <kbd>CTRL</kbd> <kbd>N</kbd>or down <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>UP</kbd> |
-| Comment or uncomment a line of code | <kbd>CMD</kbd> <kbd>/</kbd>
-| Comment or uncomment a multi-line of code | <kbd>CMD</kbd> <kbd>ALT</kbd> <kbd>/</kbd>
-| Expand or collapse a code block | <kbd>CMD</kbd> <kbd>+</kbd> or <kbd>CMD</kbd> <kbd>-</kbd>
-| Surround with highlighted code with something | <kbd>ALT</kbd> <kbd>CMD</kbd> <kbd>T</kbd>
-| Reformat or line code up | <kbd>CMD</kbd> <kbd>ALT</kbd> <kbd>L</kbd>
-| Delete whole line | <kbd>CMD</kbd> <kbd>DELETE</kbd>
-| Smart Line Joining, Pressing multiple times will keep joining the lines. | <kbd>CTRL</kbd> <kbd>SHIFT</kbd> <kbd>J</kbd>
-| Starting a new line outside of a function to go into inner | <kbd>CMD</kbd> <kbd>ENTER</kbd>
-| Toggle Letter Case and you can even toggle multilines.| <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>U</kbd>
+| Comment or uncomment a line of code | <kbd>CMD</kbd> <kbd>/</kbd> |
+| Comment or uncomment a multi-line of code | <kbd>CMD</kbd> <kbd>ALT</kbd> <kbd>/</kbd> |
+| Expand or collapse a code block | <kbd>CMD</kbd> <kbd>+</kbd> or <kbd>CMD</kbd> <kbd>-</kbd> |
+| Surround with highlighted code with something | <kbd>ALT</kbd> <kbd>CMD</kbd> <kbd>T</kbd> |
+| Reformat or line code up | <kbd>CMD</kbd> <kbd>ALT</kbd> <kbd>L</kbd> |
+| Delete whole line | <kbd>CMD</kbd> <kbd>DELETE</kbd> |
+| Smart Line Joining, Pressing multiple times will keep joining the lines. | <kbd>CTRL</kbd> <kbd>SHIFT</kbd> <kbd>J</kbd> |
+| Starting a new line outside of a function to go into inner | <kbd>CMD</kbd> <kbd>ENTER</kbd> |
+| Toggle Letter Case and you can even toggle multilines.| <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>U</kbd> |
 
+#### 4. Other Key Shortcuts Efficiently
+| Description | Shortcut Key |
+| --- | --- |
+| Create a new file and more | <kbd>CMD</kbd> <kbd>N</kbd> |
+| Retrieve Parameter Information | <kbd>CMD</kbd> <kbd>P</kbd> | 
+| Find more documentation on highlighted (double tap detailed documentation) | <kbd>CTRL</kbd> <kbd>J</kbd> | 
+| Show main wrapper context of code | <kbd>CTRL</kbd> <kbd>SHIFT</kbd> <kbd>Q</kbd> |
+| Show intention actions and quick fixes | <kbd>ALT</kbd> <kbd>ENTER</kbd> |
+| Navigate between opened tabs | <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>]</kbd> or <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>[</kbd> |
+| Navigate through tabs with history | <kbd>CMD</kbd> <kbd>[</kbd> or <kbd>CMD</kbd> <kbd>]</kbd>  |
+| Deleting a word and perserving on whats on the right | <kbd>ALT</kbd> <kbd>DELETE</kbd> |
+| Close active editor tab | <kbd>CMD</kbd> <kbd>W</kbd> |
 
-
-4. Other Key Shortcuts Efficiently
-    - Create a new file and more with <kbd>CMD</kbd> <kbd>N</kbd>
-    - Retrieve Parameter Information <kbd>CMD</kbd> <kbd>P</kbd>
-    - Find more documentation on highlighted code <kbd>CTRL</kbd> <kbd>J</kbd> and tap <kbd>J</kbd> again to see a more detailed documentation
-    - Show main wrapper context of code <kbd>CTRL</kbd> <kbd>SHIFT</kbd> <kbd>Q</kbd>
-    - Show intention actions and quick fixes <kbd>ALT</kbd> <kbd>ENTER</kbd>
-    - Navigate between opened tabs <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>]</kbd> or <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>[</kbd>
-    - Navigate through tabs with history with just <kbd>CMD</kbd> <kbd>[</kbd> or <kbd>CMD</kbd> <kbd>]</kbd>
-    - Deleting a word and perserving on whats on the right <kbd>ALT</kbd> <kbd>DELETE</kbd>
-    - Close active editor tab with <kbd>CMD</kbd> <kbd>W</kbd>
-    
 5. Using The Mouse
     - You can use your mouse to highlight multiple lines or have multiple cursors by holding <kbd>ALT</kbd> and with your mouse click and hold.
     - See more information about the piece of code by holding <kbd>CMD</kbd> and mousing over it.
