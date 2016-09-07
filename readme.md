@@ -23,7 +23,8 @@ Learn how to be more productive in the any JetBrains IDE.
 
 > Use these in your code editor to increase coding productivity
 
-#### Moving the Cursor
+
+#### 1. Moving the Cursor
 
 | Description | Shortcut Key |
 | --- | --- |
@@ -141,14 +142,7 @@ Learn how to be more productive in the any JetBrains IDE.
  - `https://blog.jetbrains.com/idea/2006/04/configuring-intellij-idea-vm-options/`
  
 2. zsh
-
+    - `http://ohmyz.sh/`
     - `https://github.com/robbyrussell/oh-my-zsh`
     - `https://github.com/robbyrussell/oh-my-zsh/wiki`
     - `https://github.com/robbyrussell/oh-my-zsh/wiki/Cheatsheet`
-> How to Get Started with this Repository:
-
-    ~  git clone url
-    ~  cd in/project
-    ~  npm i
-    ~  npm start
-    
