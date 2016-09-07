@@ -62,7 +62,8 @@ Learn how to be more productive in the any JetBrains IDE.
 | Starting a new line outside of a function to go into inner | <kbd>CMD</kbd> <kbd>ENTER</kbd> |
 | Toggle Letter Case and you can even toggle multilines.| <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>U</kbd> |
 
-#### 4. Other Key Shortcuts Efficiently
+#### 4. Other Useful Shortcuts
+
 | Description | Shortcut Key |
 | --- | --- |
 | Create a new file and more | <kbd>CMD</kbd> <kbd>N</kbd> |
@@ -75,19 +76,23 @@ Learn how to be more productive in the any JetBrains IDE.
 | Deleting a word and perserving on whats on the right | <kbd>ALT</kbd> <kbd>DELETE</kbd> |
 | Close active editor tab | <kbd>CMD</kbd> <kbd>W</kbd> |
 
-5. Using The Mouse
-    - You can use your mouse to highlight multiple lines or have multiple cursors by holding <kbd>ALT</kbd> and with your mouse click and hold.
-    - See more information about the piece of code by holding <kbd>CMD</kbd> and mousing over it.
-    - Go directly to code's definition by holding <kbd>CMD</kbd> and clicking.
+#### 5. Using The Mouse
 
-6. Searching Effectively
-    - Find something in your current file with <kbd>CMD</kbd> <kbd>F</kbd>
-    - Find and replace in current file with <kbd>CMD</kbd> <kbd>R</kbd>
-    - Find in Path with <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>G</kbd>
-    - Find and Replace in Path <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>R</kbd>
-    - Find a Class to go to <kbd>CMD</kbd> <kbd>O</kbd>
-    - Find a file to go to <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>O</kbd>
-    - Find a symbol to go to <kbd>CMD</kbd> <kbd>ALT</kbd> <kbd>O</kbd>
+| Description | Shortcut Key |
+| --- | --- |
+| You can use your mouse to spread multiple cursors around your code | Hold <kbd>ALT</kbd> and Move mouse | 
+| See more information about the piece of code by holding | Hold <kbd>CMD</kbd> and Hover mouse over code |
+| Going directly to code's definition | Hold <kbd>CMD</kbd> and click code |
+
+| Description | Shortcut Key |
+| --- | --- |
+| Find something in your current file | <kbd>CMD</kbd> <kbd>F</kbd> |
+| Find and replace in current file | <kbd>CMD</kbd> <kbd>R</kbd> |
+| Find in Path | <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>G</kbd> |
+| Find and Replace in Path | <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>R</kbd> |
+| Find a Class to go to | <kbd>CMD</kbd> <kbd>O</kbd> |
+| Find a file to go to | <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>O</kbd> |
+| Find a symbol to go to | <kbd>CMD</kbd> <kbd>ALT</kbd> <kbd>O</kbd> |
 
 ### Emmet (http://emmet.io/)
 
