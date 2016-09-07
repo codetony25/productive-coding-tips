@@ -154,3 +154,7 @@ Learn how to be more productive in the any JetBrains IDE.
     - `https://github.com/robbyrussell/oh-my-zsh`
     - `https://github.com/robbyrussell/oh-my-zsh/wiki`
     - `https://github.com/robbyrussell/oh-my-zsh/wiki/Cheatsheet`
+    
+3. More Terminal Stuff
+    - Aliasing
+    
