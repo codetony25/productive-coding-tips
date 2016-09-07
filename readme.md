@@ -23,8 +23,7 @@ Learn how to be more productive in the any JetBrains IDE.
 
 > Use these in your code editor to increase coding productivity
 
-1. Moving the Cursor
-
+|  Moving the Cursor |
 | Description | Shortcut Key |
 | --- | --- |
 | Moving your cursor to the next or previous line | <kbd>CTRL</kbd> <kbd>N</kbd> or <kbd>CTRL</kbd> <kbd>P</kbd> |
