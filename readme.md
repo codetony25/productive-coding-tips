@@ -24,6 +24,12 @@ Learn how to be more productive in the any JetBrains IDE.
 > Use these in your code editor to increase coding productivity
 
 1. Moving The Cursor
+| Description | Shortcut Key |
+| --- | --- |
+| Moving your cursor to the next or previous line | <kbd>CTRL</kbd> <kbd>N</kbd> or <kbd>CTRL</kbd> <kbd>P</kbd> |
+| Moving to end or beginning of the line of code | <kbd>CMD</kbd> <kbd>LEFT</kbd> or <kbd>CMD</kbd> <kbd>RIGHT</kbd> |
+
+1. Moving The Cursor
     - Move your cursor to the next or previous line with <kbd>CTRL</kbd> <kbd>N</kbd> or <kbd>CTRL</kbd> <kbd>P</kbd> you can also use arrow keys, but your hand moves too far away.
     - Go to end of the line of code with <kbd>CMD</kbd> <kbd>LEFT</kbd> or <kbd>CMD</kbd> <kbd>RIGHT</kbd>
 
@@ -144,8 +150,3 @@ Learn how to be more productive in the any JetBrains IDE.
     ~  npm i
     ~  npm start
     
-    
-| Command | Description |
-| --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
