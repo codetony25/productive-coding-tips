@@ -23,7 +23,8 @@ Learn how to be more productive in the any JetBrains IDE.
 
 > Use these in your code editor to increase coding productivity
 
-|  Moving the Cursor |
+#### Moving the Cursor
+
 | Description | Shortcut Key |
 | --- | --- |
 | Moving your cursor to the next or previous line | <kbd>CTRL</kbd> <kbd>N</kbd> or <kbd>CTRL</kbd> <kbd>P</kbd> |
@@ -139,6 +140,11 @@ Learn how to be more productive in the any JetBrains IDE.
  - `http://stackoverflow.com/questions/13578062/how-to-increase-ide-memory-limit-in-intellij-idea-on-mac`
  - `https://blog.jetbrains.com/idea/2006/04/configuring-intellij-idea-vm-options/`
  
+2. zsh
+
+    - `https://github.com/robbyrussell/oh-my-zsh`
+    - `https://github.com/robbyrussell/oh-my-zsh/wiki`
+    - `https://github.com/robbyrussell/oh-my-zsh/wiki/Cheatsheet`
 > How to Get Started with this Repository:
 
     ~  git clone url
