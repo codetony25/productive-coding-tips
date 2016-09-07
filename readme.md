@@ -9,13 +9,12 @@ Learn how to be more productive in the any JetBrains IDE.
 
 1. Editor <kbd>ESC</kbd>
 2. Searching
-3. Project Window <kbd>CMD</kbd> <kbd>1</kbd>
+3. Project Navigator <kbd>CMD</kbd> <kbd>1</kbd>
 4. Version Control <kbd>CMD</kbd> <kbd>9</kbd>
 6. Debugging <kbd>CMD</kbd> <kbd>5</kbd>
 7. Terminal <kbd>ALT</kbd> <kbd>F12</kbd>
 8. Navigation Bar <kbd>CMD</kbd> <kbd>↑</kbd>
 9. Preferences <kbd>CMD</kbd> <kbd>,</kbd>
-
 
 
 ## Editor
@@ -108,9 +107,16 @@ Learn how to be more productive in the any JetBrains IDE.
 | Find a Class to go to | <kbd>CMD</kbd> <kbd>O</kbd> |
 | Find a file to go to | <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>O</kbd> |
 | Find a symbol to go to | <kbd>CMD</kbd> <kbd>ALT</kbd> <kbd>O</kbd> |
+| Find a line number in current file and jump to it | <kbd>CMD</kbd> <kbd>L</kbd> |
+| Find an action or option name | <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>A</kbd> |
 | Search Everywhere! | Double Tap <kbd>SHIFT</kbd> |
 
-
+- Filter your search by clicking the gear icon to only look in specific areas.
+- Search by Regex, by whole words, or turn on case sensitivity.
+- Search with wildcards(*) for example ```*Block.php or  Block.*```
+- Search by each capital letter in file name.
+- Search file with and jump to line number when opened. For Example ```server.js:40```
+- Search for structural blocks/templates with by finding an action and look for ```Search Structurally``` you can also replace a block of code with ```Replace Structurally```.
 
 ### Emmet (http://emmet.io/)
 
@@ -128,7 +134,7 @@ Learn how to be more productive in the any JetBrains IDE.
 - You can also press enter if your code completion suggestion is first in the list to automatically insert.
 - Hippie Completion (Cycles through keywords, class names, methods, or variables within the file) with <kbd>ALT</kbd> <kbd>/</kbd> don't know if anyone uses this, I just always type it in.
 
-## Project Window
+## Project Navigator
 
 - Quickly go to your project window by typing in <kbd>CMD</kbd> <kbd>1</kbd> and go back to you code editor by pressing <kbd>ESC</kbd>.
 - You can search for any files by just typing while you are in the project window.
