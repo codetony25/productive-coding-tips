@@ -41,12 +41,10 @@ Learn how to be more productive in the any JetBrains IDE.
 | Highlight the next occurrence of highlighted code | <kbd>CMD</kbd> <kbd>G</kbd> |
 | Highlight the previous occurrence of highlighted code | <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>G</kbd> |
 | Highlight same code occurrence with | <kbd>CTRL</kbd> <kbd>G</kbd> or <kbd>CTRL</kbd> <kbd>SHIFT</kbd> <kbd>G</kbd> |
-| Highlight code based on its grammar | <kbd>ALT</kbd> <kbd>↑</kbd> or <kbd>ALT</kbd> <kbd>↑</kbd> |
+| Highlight code based on its grammar or enclosed blocks of code | <kbd>ALT</kbd> <kbd>↑</kbd> or <kbd>ALT</kbd> <kbd>↑</kbd> |
 | Highlight a character at a time | <kbd>SHIFT</kbd> <kbd>LEFT</kbd> or <kbd>SHIFT</kbd> <kbd>RIGHT</kbd> |
 | Highlight up or down line by line of code | <kbd>SHIFT</kbd> <kbd>↑</kbd> or <kbd>SHIFT</kbd> <kbd>↓</kbd> |
 | Highlight the rest of the line of code on the right or left side | <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>LEFT</kbd> or <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>RIGHT</kbd> |
-| Highlight enclosed blocks of code | <kbd>ALT</kbd> <kbd>↑</kbd> or <kbd>ALT</kbd> <kbd>↓</kbd> |
-| Highlight each by word and punctuation | <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>LEFT</kbd> or <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>RIGHT</kbd> |
 | Highlight code usages in a file | <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>F7</kbd> |
  
  
@@ -64,27 +62,11 @@ Learn how to be more productive in the any JetBrains IDE.
 | Reformat or line code up | <kbd>CMD</kbd> <kbd>ALT</kbd> <kbd>L</kbd> |
 | Delete whole line | <kbd>CMD</kbd> <kbd>DELETE</kbd> |
 | Smart Line Joining, Pressing multiple times will keep joining the lines. | <kbd>CTRL</kbd> <kbd>SHIFT</kbd> <kbd>J</kbd> |
-| Starting a new line outside of a function to go into inner | <kbd>CMD</kbd> <kbd>ENTER</kbd> |
+| Create new lines without having the cursor move down | <kbd>CMD</kbd> <kbd>ENTER</kbd> |
 | Toggle Letter Case and you can even toggle multilines.| <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>U</kbd> |
 
 
-#### 4. Other Useful Shortcuts
-
-
-| Description | Shortcut Key |
-| --- | --- |
-| Create a new file and more | <kbd>CMD</kbd> <kbd>N</kbd> |
-| Retrieve Parameter Information | <kbd>CMD</kbd> <kbd>P</kbd> | 
-| Find more documentation on highlighted (double tap detailed documentation) | <kbd>CTRL</kbd> <kbd>J</kbd> | 
-| Show main wrapper context of code | <kbd>CTRL</kbd> <kbd>SHIFT</kbd> <kbd>Q</kbd> |
-| Show intention actions and quick fixes | <kbd>ALT</kbd> <kbd>ENTER</kbd> |
-| Navigate between opened tabs | <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>]</kbd> or <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>[</kbd> |
-| Navigate through tabs with history | <kbd>CMD</kbd> <kbd>[</kbd> or <kbd>CMD</kbd> <kbd>]</kbd>  |
-| Deleting a word and perserving on whats on the right | <kbd>ALT</kbd> <kbd>DELETE</kbd> |
-| Close active editor tab | <kbd>CMD</kbd> <kbd>W</kbd> |
-
-
-#### 5. Using The Mouse
+#### 4. Using The Mouse
 
 
 | Description | Shortcut Key |
@@ -92,6 +74,22 @@ Learn how to be more productive in the any JetBrains IDE.
 | You can use your mouse to spread multiple cursors around your code | Hold <kbd>ALT</kbd> and Move mouse | 
 | See more information about the piece of code by holding | Hold <kbd>CMD</kbd> and Hover mouse over code |
 | Going directly to code's definition | Hold <kbd>CMD</kbd> and click code |
+
+
+#### 5. Other Useful Shortcuts
+
+
+| Description | Shortcut Key |
+| --- | --- |
+| Create a new file and more | <kbd>CMD</kbd> <kbd>N</kbd> |
+| Retrieve Parameter Information | <kbd>CMD</kbd> <kbd>P</kbd> | 
+| Find more documentation on highlighted (double tap detailed documentation) | <kbd>CTRL</kbd> <kbd>J</kbd> |
+| Show intention actions and quick fixes | <kbd>ALT</kbd> <kbd>ENTER</kbd> |
+| Navigate between opened tabs | <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>]</kbd> or <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>[</kbd> |
+| Navigate through tabs with history | <kbd>CMD</kbd> <kbd>[</kbd> or <kbd>CMD</kbd> <kbd>]</kbd>  |
+| Delete whole line | <kbd>CMD</kbd> <kbd>DELETE</kbd> |
+| Close active editor tab | <kbd>CMD</kbd> <kbd>W</kbd> |
+| Scale your current window | <kbd>SHIFT</kbd> <kbd>CMD</kbd> and ```move with arrow keys``` |
 
 
 ## Searching
@@ -105,16 +103,17 @@ Learn how to be more productive in the any JetBrains IDE.
 | Find in Path | <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>G</kbd> |
 | Find and Replace in Path | <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>R</kbd> |
 | Find a Class to go to | <kbd>CMD</kbd> <kbd>O</kbd> |
-| Find a file to go to | <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>O</kbd> |
-| Find a symbol to go to | <kbd>CMD</kbd> <kbd>ALT</kbd> <kbd>O</kbd> |
-| Find a line number in current file and jump to it | <kbd>CMD</kbd> <kbd>L</kbd> |
-| Find an action or option name | <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>A</kbd> |
+| Find a File to go to | <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>O</kbd> |
+| Find a Symbol to go to | <kbd>CMD</kbd> <kbd>ALT</kbd> <kbd>O</kbd> |
+| Find a Line number in current file and jump to it | <kbd>CMD</kbd> <kbd>L</kbd> |
+| Find an Action or Option name | <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>A</kbd> |
 | Search Everywhere! | Double Tap <kbd>SHIFT</kbd> |
 
 - Filter your search by clicking the gear icon to only look in specific areas.
 - Search by Regex, by whole words, or turn on case sensitivity.
 - Search with wildcards(*) for example ```*Block.php or  Block.*```
 - Search by each capital letter in file name.
+- Search by typing in the path for example ```/path/to/file.js```
 - Search file with and jump to line number when opened. For Example ```server.js:40```
 - Search for structural blocks/templates with by finding an action and look for ```Search Structurally``` you can also replace a block of code with ```Replace Structurally```.
 
@@ -163,13 +162,6 @@ Learn how to be more productive in the any JetBrains IDE.
 - Shows you how many possible bugs that the IDE has saved you from.
 - Shows all IDE features that are related to productivity and how many times you have used it.
 - Shows information on how to use it.
-
-
-## USEFUL Hot Keys
-- hold shift cmd and arrow keys to scale down window
-
-
-
 
 > Optional Steps:
 
