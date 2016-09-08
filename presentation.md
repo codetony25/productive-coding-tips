@@ -36,7 +36,8 @@
 - Click the `collapse` to collapse all files and folders to root.
 - One useful thing is the `Autoscroll from source` which automatically moves to the current file that you are editing in your code editor.
 
-- Discuss Editor Basics
+
+--- Discuss Editor Basics ---
 
 ## Editor
 
@@ -49,6 +50,9 @@
 | --- | --- |
 | Moving your cursor to the next or previous line | <kbd>CTRL</kbd> <kbd>N</kbd> or <kbd>CTRL</kbd> <kbd>P</kbd> |
 | Moving to end or beginning of the line of code | <kbd>CMD</kbd> <kbd>←</kbd> or <kbd>CMD</kbd> <kbd>→</kbd> |
+| Moving forward in line of code | <kbd>CTRL</kbd> <kbd>F</kbd> |
+| Moving backward in line of code | <kbd>CTRL</kbd> <kbd>B</kbd> |
+| Moving word by word in line of code | <kbd>ALT</kbd> <kbd>←</kbd> or <kbd>ALT</kbd> <kbd>→</kbd> |
 
 
 #### 2. Selecting Code
@@ -95,13 +99,13 @@
 | --- | --- |
 | Create a new file and more | <kbd>CMD</kbd> <kbd>N</kbd> |
 | Retrieve Parameter Information | <kbd>CMD</kbd> <kbd>P</kbd> | 
-| Find more documentation on highlighted (double tap detailed documentation) | <kbd>CTRL</kbd> <kbd>J</kbd> | 
-| Show main wrapper context of code | <kbd>CTRL</kbd> <kbd>SHIFT</kbd> <kbd>Q</kbd> |
+| Find more documentation on highlighted (double tap detailed documentation) | <kbd>CTRL</kbd> <kbd>J</kbd> |
 | Show intention actions and quick fixes | <kbd>ALT</kbd> <kbd>ENTER</kbd> |
 | Navigate between opened tabs | <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>]</kbd> or <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>[</kbd> |
 | Navigate through tabs with history | <kbd>CMD</kbd> <kbd>[</kbd> or <kbd>CMD</kbd> <kbd>]</kbd>  |
-| Deleting a word and perserving on whats on the right | <kbd>ALT</kbd> <kbd>DELETE</kbd> |
+| Delete whole line | <kbd>CMD</kbd> <kbd>DELETE</kbd> |
 | Close active editor tab | <kbd>CMD</kbd> <kbd>W</kbd> |
+| Scale your current window | <kbd>SHIFT</kbd> <kbd>CMD</kbd> and ```move with arrow keys``` |
 
 
 #### 5. Using The Mouse
@@ -163,12 +167,12 @@
 
 - show some html examples of making a lists with links
     - show quick divs with .className or #idName
-    - ul>li.className*5
+    - "ul>li.className*5"
     -  
 - show how easy it is to remember css emmet 
     - explain that you don't really need to remember by demonstrating mt10px or pb50px
     - test everyone to see if they can guess display inline-block;
-    ul#nav>li.item$*4>{Item $}
+    - "ul#nav>li.item$*4>{Item $}"
     
 --- Talk about Advantages of using version control on this IDE ---
 

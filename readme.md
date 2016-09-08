@@ -6,7 +6,7 @@ Learn how to be more productive in the any JetBrains IDE.
 - Note: To close the current window that you are on, you can press the same shortcut key again.
 - Official Documentation: https://www.jetbrains.com/help/idea/2016.2/
 
-> I will break this lesson up into the IDE's components
+## What I will be talking about:
 
 1. Editor <kbd>ESC</kbd>
 2. Searching
@@ -31,10 +31,10 @@ Learn how to be more productive in the any JetBrains IDE.
 | Description | Shortcut Key |
 | --- | --- |
 | Moving your cursor to the next or previous line | <kbd>CTRL</kbd> <kbd>N</kbd> or <kbd>CTRL</kbd> <kbd>P</kbd> |
-| Moving to end or beginning of the line of code | <kbd>CMD</kbd> <kbd>LEFT</kbd> or <kbd>CMD</kbd> <kbd>RIGHT</kbd> |
+| Moving to end or beginning of the line of code | <kbd>CMD</kbd> <kbd>←</kbd> or <kbd>CMD</kbd> <kbd>→</kbd> |
 | Moving forward in line of code | <kbd>CTRL</kbd> <kbd>F</kbd> |
 | Moving backward in line of code | <kbd>CTRL</kbd> <kbd>B</kbd> |
-| Moving word by word in line of code | <kbd>ALT</kbd> <kbd>LEFT</kbd> or <kbd>ALT</kbd> <kbd>RIGHT</kbd> |
+| Moving word by word in line of code | <kbd>ALT</kbd> <kbd>←</kbd> or <kbd>ALT</kbd> <kbd>→</kbd> |
 
 #### 2. Selecting Code
 
@@ -45,11 +45,11 @@ Learn how to be more productive in the any JetBrains IDE.
 | Highlight the previous occurrence of highlighted code | <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>G</kbd> |
 | Highlight same code occurrence with | <kbd>CTRL</kbd> <kbd>G</kbd> or <kbd>CTRL</kbd> <kbd>SHIFT</kbd> <kbd>G</kbd> |
 | Highlight code based on its grammar or enclosed blocks of code | <kbd>ALT</kbd> <kbd>↑</kbd> or <kbd>ALT</kbd> <kbd>↑</kbd> |
-| Highlight a character at a time | <kbd>SHIFT</kbd> <kbd>LEFT</kbd> or <kbd>SHIFT</kbd> <kbd>RIGHT</kbd> |
+| Highlight a character at a time | <kbd>SHIFT</kbd> <kbd>←</kbd> or <kbd>SHIFT</kbd> <kbd>→</kbd> |
 | Highlight up or down line by line of code | <kbd>SHIFT</kbd> <kbd>↑</kbd> or <kbd>SHIFT</kbd> <kbd>↓</kbd> |
-| Highlight the rest of the line of code on the right or left side | <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>LEFT</kbd> or <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>RIGHT</kbd> |
+| Highlight the rest of the line of code on the right or left side | <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>←</kbd> or <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>→</kbd> |
 | Highlight enclosed blocks of code | <kbd>ALT</kbd> <kbd>↑</kbd> or <kbd>ALT</kbd> <kbd>↓</kbd> |
-| Highlight each by word and punctuation | <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>LEFT</kbd> or <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>RIGHT</kbd> |
+| Highlight each by word and punctuation | <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>←</kbd> or <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>→</kbd> |
 | Highlight code usages in a file | <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>F7</kbd> |
  
  
