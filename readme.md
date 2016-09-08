@@ -31,7 +31,9 @@ Learn how to be more productive in the any JetBrains IDE.
 | --- | --- |
 | Moving your cursor to the next or previous line | <kbd>CTRL</kbd> <kbd>N</kbd> or <kbd>CTRL</kbd> <kbd>P</kbd> |
 | Moving to end or beginning of the line of code | <kbd>CMD</kbd> <kbd>LEFT</kbd> or <kbd>CMD</kbd> <kbd>RIGHT</kbd> |
-
+| Moving forward in line of code | <kbd>CTRL</kbd> <kbd>F</kbd> |
+| Moving backward in line of code | <kbd>CTRL</kbd> <kbd>B</kbd> |
+| Moving word by word in line of code | <kbd>ALT</kbd> <kbd>LEFT</kbd> or <kbd>ALT</kbd> <kbd>RIGHT</kbd> |
 
 #### 2. Selecting Code
 
@@ -175,7 +177,4 @@ Learn how to be more productive in the any JetBrains IDE.
     - `https://github.com/robbyrussell/oh-my-zsh`
     - `https://github.com/robbyrussell/oh-my-zsh/wiki`
     - `https://github.com/robbyrussell/oh-my-zsh/wiki/Cheatsheet`
-    
-3. More Terminal Stuff
-    - Aliasing
     
