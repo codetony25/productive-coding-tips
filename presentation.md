@@ -1,4 +1,5 @@
-1. Introduction
+## Introduction
+
 - Show Presentation Assist Plugin and demonstrate that it shows Hotkeys on the bottom.
 - Explain that i'm using IntelliJ but has almost all the same functionality as PHPStorm.
 - Bare with me as I will most likely show you things that you already know, but others might not.
