@@ -3,12 +3,13 @@
 - Explain that i'm using IntelliJ but has almost all the same functionality as PHPStorm.
 - Bare with me as I will most likely show you things that you already know, but others might not.
 - The key of the presentation is to show you the capabilities that this IDE offers.
-- Of course you aren't going to remember everything, but as long as you know the IDE is capable of, then you are solid.
+- Of course you aren't going to remember everything, so just try to remember what your IDE is capable of doing, and the rest will take time.
 - Feel free to speak up if you know something interesting because I might forget or not even know.
 - Made a github readme of everything we will be talking about so don't be scared if you missed something, I will share it after this.
 - Try your best to avoid touching your mouse and learn shortcut hotkeys that the IDE has.
 - Feel free to interrupt me any time for questions.
-- Discuss User Interface of IDE
+
+> Talk about User Interface of IDE
 
 1. Editor <kbd>ESC</kbd>
 2. Searching
@@ -24,7 +25,7 @@
 - We can actually do everything in our toolbar with hotkeys
 - I only use it for git, but I just remember ctrl + v and press the number w/o touching the mouse.
 
---- Talk About Project Navigator ---
+> Talk About Project Navigator
 
 ## Project Navigator
 
@@ -36,8 +37,22 @@
 - Click the `collapse` to collapse all files and folders to root.
 - One useful thing is the `Autoscroll from source` which automatically moves to the current file that you are editing in your code editor.
 
+> Talk about Advantages of using version control on this IDE
 
---- Discuss Editor Basics ---
+## Version Control
+
+- You can quickly open up version control by pressing <kbd>CMD</kbd> <kbd>9</kbd>
+- Quickly see version control operations with <kbd>CTRL</kbd> <kbd>V</kbd>
+- Choose a way to update your project with <kbd>CMD</kbd> <kbd>T</kbd>
+- Shows Git Log visually and you can select each commit to compare differences.
+- You can use annotate to see who has changed something previously
+- See all your local changes.
+- You can create a changelist to make sure those files will not be commited.
+- See Differences between local and previously committed files.
+- When you get a merge conflict, we can fix easily by right clicking the file -> Git -> Fix Merge Conflict (The best feature in my opinion)
+
+
+> Discuss Editor Basics
 
 ## Editor
 
@@ -117,8 +132,7 @@
 | See more information about the piece of code by holding | Hold <kbd>CMD</kbd> and Hover mouse over code |
 | Going directly to code's definition | Hold <kbd>CMD</kbd> and click code |
 
--- Talk about Code Completion ---
-
+> Talk about Code Completion
 
 ### Code Completion
 
@@ -130,7 +144,7 @@
 - Hippie Completion (Cycles through keywords, class names, methods, or variables within the file) with <kbd>ALT</kbd> <kbd>/</kbd> don't know if anyone uses this, I just always type it in.
 
 
---- Talk About Searching ---
+> Talk About Searching
 
 #### 1. Shortcut Hotkeys for Searching
 
@@ -173,20 +187,6 @@
     - explain that you don't really need to remember by demonstrating mt10px or pb50px
     - test everyone to see if they can guess display inline-block;
     - "ul#nav>li.item$*4>{Item $}"
-    
---- Talk about Advantages of using version control on this IDE ---
-
-## Version Control
-
-- You can quickly open up version control by pressing <kbd>CMD</kbd> <kbd>9</kbd>
-- Quickly see version control operations with <kbd>CTRL</kbd> <kbd>V</kbd>
-- Choose a way to update your project with <kbd>CMD</kbd> <kbd>T</kbd>
-- Shows Git Log visually and you can select each commit to compare differences.
-- You can use annotate to see who has changed something previously
-- See all your local changes.
-- You can create a changelist to make sure those files will not be commited.
-- See Differences between local and previously committed files.
-- When you get a merge conflict, we can fix easily by right clicking the file -> Git -> Fix Merge Conflict (The best feature in my opinion)
 
 
 --- Talk about how they can check how productive they are using the IDE ---

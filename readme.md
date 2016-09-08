@@ -69,7 +69,7 @@ Learn how to be more productive in the any JetBrains IDE.
 | Smart Line Joining, Pressing multiple times will keep joining the lines. | <kbd>CTRL</kbd> <kbd>SHIFT</kbd> <kbd>J</kbd> |
 | Create new lines without having the cursor move down | <kbd>CMD</kbd> <kbd>ENTER</kbd> |
 | Toggle Letter Case and you can even toggle multilines.| <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>U</kbd> |
-| Deleting the word starting from the current caret location up to the word end | <kbd>ALT</kbd> DELETE</kbd> |
+| Deleting the word starting from the current caret location up to the word end | <kbd>ALT</kbd> <kbd>DELETE</kbd> |
 
 
 #### 4. Using The Mouse
