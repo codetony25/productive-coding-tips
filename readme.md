@@ -4,6 +4,7 @@ Learn how to be more productive in the any JetBrains IDE.
 
 - Note: you can go back to your code editor area by pressing the <kbd>ESC</kbd> key. 
 - Note: To close the current window that you are on, you can press the same shortcut key again.
+- Official Documentation: https://www.jetbrains.com/help/idea/2016.2/
 
 > I will break this lesson up into the IDE's components
 
@@ -47,6 +48,8 @@ Learn how to be more productive in the any JetBrains IDE.
 | Highlight a character at a time | <kbd>SHIFT</kbd> <kbd>LEFT</kbd> or <kbd>SHIFT</kbd> <kbd>RIGHT</kbd> |
 | Highlight up or down line by line of code | <kbd>SHIFT</kbd> <kbd>↑</kbd> or <kbd>SHIFT</kbd> <kbd>↓</kbd> |
 | Highlight the rest of the line of code on the right or left side | <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>LEFT</kbd> or <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>RIGHT</kbd> |
+| Highlight enclosed blocks of code | <kbd>ALT</kbd> <kbd>↑</kbd> or <kbd>ALT</kbd> <kbd>↓</kbd> |
+| Highlight each by word and punctuation | <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>LEFT</kbd> or <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>RIGHT</kbd> |
 | Highlight code usages in a file | <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>F7</kbd> |
  
  
@@ -66,6 +69,7 @@ Learn how to be more productive in the any JetBrains IDE.
 | Smart Line Joining, Pressing multiple times will keep joining the lines. | <kbd>CTRL</kbd> <kbd>SHIFT</kbd> <kbd>J</kbd> |
 | Create new lines without having the cursor move down | <kbd>CMD</kbd> <kbd>ENTER</kbd> |
 | Toggle Letter Case and you can even toggle multilines.| <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>U</kbd> |
+| Deleting the word starting from the current caret location up to the word end | <kbd>ALT</kbd> DELETE</kbd> |
 
 
 #### 4. Using The Mouse
@@ -177,4 +181,3 @@ Learn how to be more productive in the any JetBrains IDE.
     - `https://github.com/robbyrussell/oh-my-zsh`
     - `https://github.com/robbyrussell/oh-my-zsh/wiki`
     - `https://github.com/robbyrussell/oh-my-zsh/wiki/Cheatsheet`
-    
