@@ -179,8 +179,8 @@
 
 - show some html examples of making a lists with links
     - show quick divs with .className or #idName
-    - "ul>li.my-class*5"
-    -  
+    - ul>li.my-class*5
+
 - show how easy it is to remember css emmet 
     - explain that you don't really need to remember by demonstrating ```mt10px or pb50px or dib or tac```
     - test everyone to see if they can guess display inline-block;

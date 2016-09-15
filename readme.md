@@ -167,6 +167,37 @@ Learn how to be more productive in the any JetBrains IDE.
 - Shows all IDE features that are related to productivity and how many times you have used it.
 - Shows information on how to use it.
 
+
+## Terminal Productivity Guide
+
+- Move word by word when moving the cursor of the command with <kbd>ALT</kbd> <kbd>←</kbd> for forward and <kbd>ESC</kbd> <kbd>→</kbd> for backwards.
+- Move at the end of the line or beginning with <kbd>CTRL</kbd> <kbd>E</kbd> or <kbd>CTRL</kbd> <kbd>A</kbd>
+- Run multiple commands in one line `git add . && git commit 'commit test' && git push origin master`
+- To clear window `clear`
+- To cancel what you entered <kbd>CMD</kbd> <kbd>C</kbd>
+- View contents of a file with `cat filename`
+- Previous command `!ssh` to show previous command that we used that began with `ssh`
+- Navigation through folders with `cd` pressing tab finish off what you were searching for
+- See a list of commands you've previously entered `history`
+- Undo something with <kbd>CTRL</kbd> <kbd>-</kbd>
+- Show previous single commands by also using the up and down arrows on your keyboard also.
+- Do a search between all your commands with <kbd>CMD</kbd> <kbd>R</kbd>
+- Want to always see hidden files? Use: `defaults write com.apple.finder AppleShowAllFiles -bool TRUE` and false if you want to turn that off.
+
+> Fun Commands
+
+- We can make our Mac talk to us with `say 'Hello Codetony'`
+
+## ZSH Configuration
+
+- open source, community-driven framework for managing your ZSH configuration. It comes bundled with a ton of helpful functions, helpers, plugins, and themes
+
+2. zsh
+    - `http://ohmyz.sh/`
+    - `https://github.com/robbyrussell/oh-my-zsh`
+    - `https://github.com/robbyrussell/oh-my-zsh/wiki`
+    - `https://github.com/robbyrussell/oh-my-zsh/wiki/Cheatsheet`
+
 > Optional Steps:
 
 1. IDE too slow? We can increase its memory limit in the VM Options.
