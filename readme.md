@@ -224,9 +224,8 @@ We want to try to keep our hands on the keyboard and learn and memorize shortcut
 
  - `http://stackoverflow.com/questions/13578062/how-to-increase-ide-memory-limit-in-intellij-idea-on-mac`
  - `https://blog.jetbrains.com/idea/2006/04/configuring-intellij-idea-vm-options/`
- 
-2. zsh
-    - `http://ohmyz.sh/`
-    - `https://github.com/robbyrussell/oh-my-zsh`
-    - `https://github.com/robbyrussell/oh-my-zsh/wiki`
-    - `https://github.com/robbyrussell/oh-my-zsh/wiki/Cheatsheet`
+
+
+> Nice to knows:
+
+- We can also transfer over settings by creating a `settings.jar` going to EDIT -> Export Settings or EDIT -> Import Settings to transfering settings.

@@ -243,3 +243,5 @@
         -XX:+UseCodeCacheFlushing
         -XX:+UseCompressedOops
     ```
+    
+- We can also transfer over settings by creating a `settings.jar` going to EDIT -> Export Settings or EDIT -> Import Settings to transfering settings.
