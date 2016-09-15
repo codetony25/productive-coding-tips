@@ -168,7 +168,7 @@ Learn how to be more productive in the any JetBrains IDE.
 - Shows information on how to use it.
 
 
-## Terminal Productivity Guide
+## Terminal Tips
 
 - Move word by word when moving the cursor of the command with <kbd>ALT</kbd> <kbd>←</kbd> for forward and <kbd>ESC</kbd> <kbd>→</kbd> for backwards.
 - Move at the end of the line or beginning with <kbd>CTRL</kbd> <kbd>E</kbd> or <kbd>CTRL</kbd> <kbd>A</kbd>

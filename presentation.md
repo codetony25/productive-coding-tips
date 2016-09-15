@@ -168,7 +168,7 @@
 - Search file with and jump to line number when opened. For Example ```server.js:40```
 - Search for structural blocks/templates with by finding an action and look for ```Search Structurally``` you can also replace a block of code with ```Replace Structurally```.
 
---- Talk About Emmet ---
+> Talk About Emmet
 
 ### Emmet (http://emmet.io/)
 
