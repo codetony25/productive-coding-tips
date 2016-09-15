@@ -21,10 +21,10 @@
 7. Preferences <kbd>CMD</kbd> <kbd>,</kbd>
 
 - Pressing ESC will always take you back to the editor
-- hold shift cmd and arrow keys to scale down current window
+- hold <kbd>SHIFT</kbd> <kbd>CMD</kbd> and LEFT or RIGHT to scale down current window
 - In my opinion, I suggest removing the top toolbar as it takes up space
 - We can actually do everything in our toolbar with hotkeys
-- I only use it for git, but I just remember ctrl + v and press the number w/o touching the mouse.
+- I only use it for git, but I just remember <kbd>CTRL</kbd> + <kbd>V</kbd> and press the number w/o touching the mouse.
 
 > Talk About Project Navigator
 

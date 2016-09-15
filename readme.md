@@ -9,13 +9,13 @@ Learn how to be more productive in the any JetBrains IDE.
 ## What I will be talking about:
 
 1. Editor <kbd>ESC</kbd>
-2. Searching
-3. Project Navigator <kbd>CMD</kbd> <kbd>1</kbd>
-4. Version Control <kbd>CMD</kbd> <kbd>9</kbd>
-6. Debugging <kbd>CMD</kbd> <kbd>5</kbd>
-7. Terminal <kbd>ALT</kbd> <kbd>F12</kbd>
-8. Navigation Bar <kbd>CMD</kbd> <kbd>↑</kbd>
-9. Preferences <kbd>CMD</kbd> <kbd>,</kbd>
+2. Project Navigator <kbd>CMD</kbd> <kbd>1</kbd>
+3. Version Control <kbd>CMD</kbd> <kbd>9</kbd>
+4. Debugging <kbd>CMD</kbd> <kbd>5</kbd>
+5. Terminal <kbd>ALT</kbd> <kbd>F12</kbd>
+6. Navigation Bar <kbd>CMD</kbd> <kbd>↑</kbd>
+7. Preferences <kbd>CMD</kbd> <kbd>,</kbd>
+8. Searching
 
 
 ## Editor
