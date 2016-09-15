@@ -9,6 +9,8 @@
 - Made a github readme of everything we will be talking about so don't be scared if you missed something, I will share it after this.
 - Try your best to avoid touching your mouse and learn shortcut hotkeys that the IDE has.
 - Feel free to interrupt me any time for questions.
+- We want to activate our F1, F2, F3 to use as our standard function keys `Go to System Preferences / Keyboard / Keyboard and uncheck the item that says "Use all F1, F2, etc. as standard function keys."`
+- If we ever want to use our special keys we just hold <kbd>FN</kbd> key and change the volume.
 
 > Talk about User Interface of IDE
 
@@ -18,7 +20,7 @@
 4. Terminal <kbd>ALT</kbd> <kbd>F12</kbd>
 5. Navigation Bar <kbd>CMD</kbd> <kbd>↑</kbd>
 6. Preferences <kbd>CMD</kbd> <kbd>,</kbd>
-7. Searching
+7. Searching Efficiently
 
 - Pressing ESC will always take you back to the editor
 - hold <kbd>SHIFT</kbd> <kbd>CMD</kbd> and LEFT or RIGHT to scale down current window

@@ -1,31 +1,48 @@
-# It's about time you thought about being a productive coder.
+# Developer Productivity Guide
 
-Learn how to be more productive in the any JetBrains IDE.
+## Overview
+Become a more productive developer, within this short and sweet guide you might learn something that you have always wondered how to do or never knew existed! This guide will mostly talk about your JetBrains IDE and some other tips that would apply on both platforms Windows and Mac.
+ 
+Here's the outline of what I will be talking about:
 
-- Note: you can go back to your code editor area by pressing the <kbd>ESC</kbd> key. 
-- Note: To close the current window that you are on, you can press the same shortcut key again.
-- Official Documentation: https://www.jetbrains.com/help/idea/2016.2/
+1. Any JetBrains IDE (IntelliJ, PHPStorm, WebStorm, etc...) [https://www.jetbrains.com/help/idea/2016.2/]
+2. Emmet (http://emmet.io/)
+3. Command Line Terminal Tips
+4. ZSH Configuration
+5. Performance Optimizations
 
-## What I will be talking about:
+## JetBrains IDE (IntelliJ, PHPStorm, WebStorm, etc...):
+
+Initial Setup:
+
+- We want to activate our F1, F2, F3 to use as our standard function keys so that we can use as much shortcuts as we can: Go to `System Preferences / Keyboard / Keyboard` and uncheck the item that says "Use all F1, F2, etc. as standard function keys."
+- If we ever want to use our special keys we just hold <kbd>FN</kbd> key and change the volume for example.
+
+This section will be organized by component:
 
 1. Editor <kbd>ESC</kbd>
-2. Project Navigator <kbd>CMD</kbd> <kbd>1</kbd>
+  - Moving the cursor efficiently
+  - Selecting / Highlighting
+  - Manipulating
+  - Using the mouse
+  - Code Completion
+2. Project Navigation <kbd>CMD</kbd> <kbd>1</kbd>
 3. Version Control <kbd>CMD</kbd> <kbd>9</kbd>
-4. Debugging <kbd>CMD</kbd> <kbd>5</kbd>
-5. Terminal <kbd>ALT</kbd> <kbd>F12</kbd>
-6. Navigation Bar <kbd>CMD</kbd> <kbd>↑</kbd>
-7. Preferences <kbd>CMD</kbd> <kbd>,</kbd>
-8. Searching
+4. Embedded Terminal <kbd>ALT</kbd> <kbd>F12</kbd>
+5. Preferences <kbd>CMD</kbd> <kbd>,</kbd>
+6. Searching Efficiently
+  - Shortcut hotkeys for searching
+7. Shortcut Hot keys you can not live without
+8. Productivity Guide
 
 
-## Editor
+### Editor
 
-### Basic Shortcut Keys
+#### Basic Shortcut Keys
 
-> Use these in your code editor to increase coding productivity
+We want to try to keep our hands on the keyboard and learn and memorize shortcut hotkeys as much as possible! Take your time on these and get them stuck in your head and in the long run you will thank yourself. 
 
-
-#### 1. Moving the Cursor
+**1. Moving the cursor efficiently**
 
 
 | Description | Shortcut Key |
@@ -36,7 +53,8 @@ Learn how to be more productive in the any JetBrains IDE.
 | Moving backward in line of code | <kbd>CTRL</kbd> <kbd>B</kbd> |
 | Moving word by word in line of code | <kbd>ALT</kbd> <kbd>←</kbd> or <kbd>ALT</kbd> <kbd>→</kbd> |
 
-#### 2. Selecting Code
+
+**2. Selecting / Highlighting**
 
 
 | Description | Shortcut Key |
@@ -52,7 +70,7 @@ Learn how to be more productive in the any JetBrains IDE.
 | Highlight each by word and punctuation | <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>←</kbd> or <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>→</kbd> |
  
  
-#### 3. Manipulating Code
+**3. Manipulating**
 
 
 | Description | Shortcut Key |
@@ -71,7 +89,7 @@ Learn how to be more productive in the any JetBrains IDE.
 | Deleting the word starting from the current caret location up to the word end | <kbd>ALT</kbd> <kbd>DELETE</kbd> |
 
 
-#### 4. Using The Mouse
+**4. Using the mouse**
 
 
 | Description | Shortcut Key |
@@ -80,26 +98,39 @@ Learn how to be more productive in the any JetBrains IDE.
 | See more information about the piece of code by holding | Hold <kbd>CMD</kbd> and Hover mouse over code |
 | Going directly to code's definition | Hold <kbd>CMD</kbd> and click code |
 
+**5. Code completion**
 
-#### 5. Other Useful Shortcuts
+- If you want to see Basic Code Completion suggestions you can press <kbd>CTRL</kbd> <kbd>SPACE</kbd>
+- It will show suggestions for variables, types, methods, expressions, and more.
+- We also have Statement Completion it will add missing parentheses, brackets, braces, and other necessary formatting with <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>ENTER</kbd>
+- You can also press enter if your code completion suggestion is first in the list to automatically insert.
+- Hippie Completion (Cycles through keywords, class names, methods, or variables within the file) with <kbd>ALT</kbd> <kbd>/</kbd> don't know if anyone uses this, I just always type it in.
 
+### Project Navigation
 
-| Description | Shortcut Key |
-| --- | --- |
-| Create a new file and more | <kbd>CMD</kbd> <kbd>N</kbd> |
-| Quickly go to usage or find multiple usages | <kbd>CMD</kbd> <kbd>B</kbd> |
-| Retrieve Parameter Information | <kbd>CMD</kbd> <kbd>P</kbd> | 
-| Find more documentation on highlighted (double tap detailed documentation) | <kbd>CTRL</kbd> <kbd>J</kbd> |
-| Show intention actions and quick fixes | <kbd>ALT</kbd> <kbd>ENTER</kbd> |
-| Navigate between opened tabs | <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>]</kbd> or <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>[</kbd> |
-| Navigate through tabs with history | <kbd>CMD</kbd> <kbd>[</kbd> or <kbd>CMD</kbd> <kbd>]</kbd>  |
-| Close active editor tab | <kbd>CMD</kbd> <kbd>W</kbd> |
-| Scale your current window | <kbd>SHIFT</kbd> <kbd>CMD</kbd> and ```move with arrow keys``` |
+- Quickly go to your project window by typing in <kbd>CMD</kbd> <kbd>1</kbd> and go back to you code editor by pressing <kbd>ESC</kbd>.
+- You can search for any files by just typing while you are in the project window.
+- You can choose to show only your changed files.
+- You can choose to show by `Structure` instead of by files. This is useful if you are in a huge file and just want to see seperated class names, methods, functions, and so on.
+- Click the `target` for it to immediately point you to your current file opened in your code editor.
+- Click the `collapse` to collapse all files and folders to root.
+- One useful thing is the `Autoscroll from source` which automatically moves to the current file that you are editing in your code editor.
 
+### Version Control
 
-## Searching
+- You can quickly open up version control by pressing <kbd>CMD</kbd> <kbd>9</kbd>
+- Quickly see version control operations with <kbd>CTRL</kbd> <kbd>V</kbd>
+- Choose a way to update your project with <kbd>CMD</kbd> <kbd>T</kbd>
+- Shows Git Log visually and you can select each commit to compare differences.
+- You can use annotate to see who has changed something previously
+- See all your local changes.
+- You can create a changelist to make sure those files will not be commited.
+- See Differences between local and previously committed files.
+- When you get a merge conflict, we can fix easily by right clicking the file -> Git -> Fix Merge Conflict (The best feature in my opinion)
 
-#### 1. Shortcut Hotkeys for Searching
+### Searching Efficiently
+
+**1. Shortcut hotkeys for searching**
 
 | Description | Shortcut Key |
 | --- | --- |
@@ -122,50 +153,37 @@ Learn how to be more productive in the any JetBrains IDE.
 - Search file with and jump to line number when opened. For Example ```server.js:40```
 - Search for structural blocks/templates with by finding an action and look for ```Search Structurally``` you can also replace a block of code with ```Replace Structurally```.
 
-### Emmet (http://emmet.io/)
+### Shortcut hot keys you can not live without
 
-- Our IDE includes Emmet by default. It is a plugin that increases your code editing workflow.
-- Includes HTML, CSS, and XSL fast on tab snippets!
-- Go to the website and read the documentation, it is pretty worth it.
-- Their cheatsheet is at (http://docs.emmet.io/cheat-sheet/)
+| Description | Shortcut Key |
+| --- | --- |
+| Create a new file and more | <kbd>CMD</kbd> <kbd>N</kbd> |
+| Quickly go to usage or find multiple usages | <kbd>CMD</kbd> <kbd>B</kbd> |
+| Retrieve Parameter Information | <kbd>CMD</kbd> <kbd>P</kbd> | 
+| Find more documentation on highlighted (double tap detailed documentation) | <kbd>CTRL</kbd> <kbd>J</kbd> |
+| Show intention actions and quick fixes | <kbd>ALT</kbd> <kbd>ENTER</kbd> |
+| Navigate between opened tabs | <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>]</kbd> or <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>[</kbd> |
+| Navigate through tabs with history | <kbd>CMD</kbd> <kbd>[</kbd> or <kbd>CMD</kbd> <kbd>]</kbd>  |
+| Close active editor tab | <kbd>CMD</kbd> <kbd>W</kbd> |
+| Scale your current window | <kbd>SHIFT</kbd> <kbd>CMD</kbd> and ```move with arrow keys``` |
+| Open Embedded Terminal | <kbd>ALT</kbd> <kbd>F12</kbd>
 
-### Code Completion
 
-- If you want to see Basic Code Completion suggestions you can press <kbd>CTRL</kbd> <kbd>SPACE</kbd>
-- It will show suggestions for variables, types, methods, expressions, and more.
-- We also have Statement Completion it will add missing parentheses, brackets, braces, and other necessary formatting with <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>ENTER</kbd>
-- You can also press enter if your code completion suggestion is first in the list to automatically insert.
-- Hippie Completion (Cycles through keywords, class names, methods, or variables within the file) with <kbd>ALT</kbd> <kbd>/</kbd> don't know if anyone uses this, I just always type it in.
-
-## Project Navigator
-
-- Quickly go to your project window by typing in <kbd>CMD</kbd> <kbd>1</kbd> and go back to you code editor by pressing <kbd>ESC</kbd>.
-- You can search for any files by just typing while you are in the project window.
-- You can choose to show only your changed files.
-- You can choose to show by `Structure` instead of by files. This is useful if you are in a huge file and just want to see seperated class names, methods, functions, and so on.
-- Click the `target` for it to immediately point you to your current file opened in your code editor.
-- Click the `collapse` to collapse all files and folders to root.
-- One useful thing is the `Autoscroll from source` which automatically moves to the current file that you are editing in your code editor.
- 
-## Version Control
-
-- You can quickly open up version control by pressing <kbd>CMD</kbd> <kbd>9</kbd>
-- Quickly see version control operations with <kbd>CTRL</kbd> <kbd>V</kbd>
-- Choose a way to update your project with <kbd>CMD</kbd> <kbd>T</kbd>
-- Shows Git Log visually and you can select each commit to compare differences.
-- You can use annotate to see who has changed something previously
-- See all your local changes.
-- You can create a changelist to make sure those files will not be commited.
-- See Differences between local and previously committed files.
-- When you get a merge conflict, we can fix easily by right clicking the file -> Git -> Fix Merge Conflict (The best feature in my opinion)
-
-## Productivity Guide
+### Productivity guide
 
 - Since its built in, you can see your productivity guide by going to Help -> Productivity Guide
 - Shows how much time you have saved using code completion has saved you.
 - Shows you how many possible bugs that the IDE has saved you from.
 - Shows all IDE features that are related to productivity and how many times you have used it.
 - Shows information on how to use it.
+
+
+## Emmet (http://emmet.io/)
+
+- Our IDE includes Emmet by default. It is a plugin that increases your code editing workflow.
+- Includes HTML, CSS, and XSL fast on tab snippets!
+- Go to the website and read the documentation, it is pretty worth it.
+- Their cheatsheet is at (http://docs.emmet.io/cheat-sheet/)
 
 
 ## Terminal Tips
@@ -188,6 +206,7 @@ Learn how to be more productive in the any JetBrains IDE.
 
 - We can make our Mac talk to us with `say 'Hello Codetony'`
 
+
 ## ZSH Configuration
 
 - open source, community-driven framework for managing your ZSH configuration. It comes bundled with a ton of helpful functions, helpers, plugins, and themes
@@ -198,7 +217,7 @@ Learn how to be more productive in the any JetBrains IDE.
     - `https://github.com/robbyrussell/oh-my-zsh/wiki`
     - `https://github.com/robbyrussell/oh-my-zsh/wiki/Cheatsheet`
 
-> Optional Steps:
+## Performance Optimizations:
 
 1. IDE too slow? We can increase its memory limit in the VM Options.
 
