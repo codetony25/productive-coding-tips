@@ -188,7 +188,8 @@ We want to try to keep our hands on the keyboard and learn and memorize shortcut
 
 ## Terminal Tips
 
-- Move word by word when moving the cursor of the command with <kbd>ALT</kbd> <kbd>←</kbd> for forward and <kbd>ESC</kbd> <kbd>→</kbd> for backwards.
+- Move word by word when moving the cursor of the command with <kbd>ALT</kbd> <kbd>←</kbd> for forward and <kbd>ESC</kbd> <kbd>→</kbd> for backwards. Note: The Imbedded Termainal in IntelliJ doesn't work with this, instead they use the olds school way.
+- The old school way to moving the cursor is <kbd>ESC</kbd> <kbd>B</kbd> for backwards and <kbd>ESC</kbd> <kbd>F</kbd> for forwards
 - Move at the end of the line or beginning with <kbd>CTRL</kbd> <kbd>E</kbd> or <kbd>CTRL</kbd> <kbd>A</kbd>
 - Run multiple commands in one line `git add . && git commit 'commit test' && git push origin master`
 - To clear window `clear`
