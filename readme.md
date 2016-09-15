@@ -50,7 +50,6 @@ Learn how to be more productive in the any JetBrains IDE.
 | Highlight the rest of the line of code on the right or left side | <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>←</kbd> or <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>→</kbd> |
 | Highlight enclosed blocks of code | <kbd>ALT</kbd> <kbd>↑</kbd> or <kbd>ALT</kbd> <kbd>↓</kbd> |
 | Highlight each by word and punctuation | <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>←</kbd> or <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>→</kbd> |
-| Highlight code usages in a file | <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>F7</kbd> |
  
  
 #### 3. Manipulating Code
@@ -59,7 +58,7 @@ Learn how to be more productive in the any JetBrains IDE.
 | Description | Shortcut Key |
 | --- | --- |
 | Duplicate your current highlighted code | <kbd>CMD</kbd> <kbd>D</kbd> |
-| Move the current line of code up | <kbd>CTRL</kbd> <kbd>N</kbd>or down <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>↑</kbd> |
+| Move the current line of code up | <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>↓</kbd> <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>↑</kbd> |
 | Comment or uncomment a line of code | <kbd>CMD</kbd> <kbd>/</kbd> |
 | Comment or uncomment a multi-line of code | <kbd>CMD</kbd> <kbd>ALT</kbd> <kbd>/</kbd> |
 | Expand or collapse a code block | <kbd>CMD</kbd> <kbd>+</kbd> or <kbd>CMD</kbd> <kbd>-</kbd> |
@@ -67,7 +66,7 @@ Learn how to be more productive in the any JetBrains IDE.
 | Reformat or line code up | <kbd>CMD</kbd> <kbd>ALT</kbd> <kbd>L</kbd> |
 | Delete whole line | <kbd>CMD</kbd> <kbd>DELETE</kbd> |
 | Smart Line Joining, Pressing multiple times will keep joining the lines. | <kbd>CTRL</kbd> <kbd>SHIFT</kbd> <kbd>J</kbd> |
-| Create new lines without having the cursor move down | <kbd>CMD</kbd> <kbd>ENTER</kbd> |
+| Create new lines without moving the cursor | <kbd>CMD</kbd> <kbd>ENTER</kbd> |
 | Toggle Letter Case and you can even toggle multilines.| <kbd>CMD</kbd> <kbd>SHIFT</kbd> <kbd>U</kbd> |
 | Deleting the word starting from the current caret location up to the word end | <kbd>ALT</kbd> <kbd>DELETE</kbd> |
 
@@ -88,12 +87,12 @@ Learn how to be more productive in the any JetBrains IDE.
 | Description | Shortcut Key |
 | --- | --- |
 | Create a new file and more | <kbd>CMD</kbd> <kbd>N</kbd> |
+| Quickly go to usage or find multiple usages | <kbd>CMD</kbd> <kbd>B</kbd> |
 | Retrieve Parameter Information | <kbd>CMD</kbd> <kbd>P</kbd> | 
 | Find more documentation on highlighted (double tap detailed documentation) | <kbd>CTRL</kbd> <kbd>J</kbd> |
 | Show intention actions and quick fixes | <kbd>ALT</kbd> <kbd>ENTER</kbd> |
 | Navigate between opened tabs | <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>]</kbd> or <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>[</kbd> |
 | Navigate through tabs with history | <kbd>CMD</kbd> <kbd>[</kbd> or <kbd>CMD</kbd> <kbd>]</kbd>  |
-| Delete whole line | <kbd>CMD</kbd> <kbd>DELETE</kbd> |
 | Close active editor tab | <kbd>CMD</kbd> <kbd>W</kbd> |
 | Scale your current window | <kbd>SHIFT</kbd> <kbd>CMD</kbd> and ```move with arrow keys``` |
 
@@ -134,7 +133,6 @@ Learn how to be more productive in the any JetBrains IDE.
 
 - If you want to see Basic Code Completion suggestions you can press <kbd>CTRL</kbd> <kbd>SPACE</kbd>
 - It will show suggestions for variables, types, methods, expressions, and more.
-- Most of the time, I use Smart Code Completion instead with <kbd>CTRL</kbd> <kbd>↑</kbd> <kbd>SPACE</kbd>
 - We also have Statement Completion it will add missing parentheses, brackets, braces, and other necessary formatting with <kbd>SHIFT</kbd> <kbd>CMD</kbd> <kbd>ENTER</kbd>
 - You can also press enter if your code completion suggestion is first in the list to automatically insert.
 - Hippie Completion (Cycles through keywords, class names, methods, or variables within the file) with <kbd>ALT</kbd> <kbd>/</kbd> don't know if anyone uses this, I just always type it in.
