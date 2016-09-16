@@ -224,7 +224,18 @@ We want to try to keep our hands on the keyboard and learn and memorize shortcut
 
  - `http://stackoverflow.com/questions/13578062/how-to-increase-ide-memory-limit-in-intellij-idea-on-mac`
  - `https://blog.jetbrains.com/idea/2006/04/configuring-intellij-idea-vm-options/`
-
+ 
+ - Go to HELP -> Edit Custom VM Options
+ - Copy:
+ 
+     ```
+         -Xms128m
+         -Xmx2048m
+         -XX:MaxPermSize=350m
+         -XX:ReservedCodeCacheSize=64m
+         -XX:+UseCodeCacheFlushing
+         -XX:+UseCompressedOops
+     ```
 
 > Nice to knows:
 
